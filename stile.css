@@ -1,0 +1,194 @@
+.send {
+    border: none;
+    cursor: pointer;
+}
+
+.bi {
+    color: black
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+* {
+  margin: 0
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background-color: #0a5939;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.app {
+  width: 60%;
+}
+
+@media (max-width:768px) {
+  .app {
+    width: 90%;
+  }
+}
+
+.app h1 {
+  color: white;
+  font-size: 40px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: .5rem .5rem 0 0;
+  background-color: #000000;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.app form {
+  display: flex;
+  width: 100%;
+  background-color: #262e4c;
+}
+
+.app form input {
+  border: none;
+  background-color: #3c4979;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  width: 90%;
+}
+
+.app form button {
+  border: none;
+  color: white;
+  background-color: #f3fefa;
+  font-size: 25px;
+  font-weight: 600;
+  height: 42px;
+  width: 10%;
+}
+
+.app ul {
+  list-style: none;
+  color: #e0e0e0;
+  padding: 0;
+}
+
+.app ul li {
+  padding: 10px;
+  background-color: #262e4c;
+  border-bottom: 1px solid #3a4674;
+}
+
+.check {
+  width: 0.8em;
+  height: 0.8em;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  
+}
+
+.check:checked {
+  background-color: #1dd2af;
+}
+
+.task {
+  font-size: 18px;
+  padding: 0 10px;
+  width: 90%;
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.task:focus {
+  outline: none;
+}
+
+.app ul li i {
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.app ul li i:hover {
+  color: rgb(255, 82, 82);
+}
+
+.completed {
+  color: rgba(192, 192, 192, 0.8);
+  text-decoration: line-through;
+}
+
+
+
+/* login page */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box input[type=text], .box input[type=password] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  border-radius: 24px;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+}
+
+.box input[type=text]:focus, .box input[type=password]:focus {
+  width: 250px;
+  border-color: #2ecc71;
+}
+
+.box input[type=submit] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  border-radius: 24px;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+}
+
+.box input[type=submit]:hover {
+  background: #2ecc71;
+}
+
